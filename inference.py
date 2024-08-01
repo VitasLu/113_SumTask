@@ -79,7 +79,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
 # 加載數據集
-with open('./datasets/cnndm/test/cnndm_test_200.json') as fs:
+with open('./data/cnndm_test_200.json') as fs:
     original_dataset = json.load(fs)
 
 for data in original_dataset:
