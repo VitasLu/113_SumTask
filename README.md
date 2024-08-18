@@ -19,6 +19,7 @@ conda activate 113_SumTask
 To run inference using a trained model:
 
 ```bash
+mkdir output
 python inference.py 
 ```
 
